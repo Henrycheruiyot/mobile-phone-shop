@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Phone Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <nav>
+        <a href="#" onclick="showSection('home')">Home</a>
+        <a href="#" onclick="showSection('about')">About</a>
+        <a href="#" onclick="showSection('contact')">Contact</a>
+        <a href="#" onclick="showSection('user_login')">User Login</a>
+        <a href="#" onclick="showSection('admin_login')">Admin Login</a>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to Our Mobile Phone Shop</h1>
+        <p>Discover the latest mobile phones with cutting-edge technology, design, and features. Shop with us and experience seamless service.</p>
+        <p>Check out our collection and find the perfect phone for you!</p>
+        <div id="phoneGallery">
+            <div class="phone">
+                <img src="images/iphone1.jpeg" alt="iPhone 1">
+                <p>iphone</p>
+            </div>
+            <div class="phone">
+                <img src="images/nokia.jpeg" alt="nokia">
+                <p>nokia2</p>
+            </div>
+            <div class="phone">
+                <img src="images/redmi.jpeg" alt="smart">
+                <p>redmi</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" style="display: none;">
+        <h1>About Us</h1>
+        <p>We are a leading mobile phone retailer dedicated to providing our customers with the latest and greatest in mobile technology. Established in [2024], we have built a reputation for offering top-notch products and exceptional customer service.</p>
+        <p>Our mission is to help you stay connected with the best mobile devices available, while offering a shopping experience that is both convenient and enjoyable.</p>
+    </section>
+
+    <section id="contact" style="display: none;">
+        <h1>Contact Us</h1>
+        <p>If you have any questions, comments, or need assistance, please get in touch with us using the contact information below:</p>
+        <p><strong>Address:</strong> 262 bomet, nairobi, kenya</p>
+        <p><strong>Phone:</strong> +254797120811</p>
+        <p><strong>Email:</strong> support@mobilephoneshop.com</p>
+        <p>You can also use the form below to send us a message:</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section id="user_login" style="display: none;">
+        <h1>User Login</h1>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section id="admin_login" style="display: none;">
+        <h1>Admin Login</h1>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mobile Phone Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+    color: green; /* Green text color */
+    font-size: 18px; /* Increased font size */
+}
+
+/* Navigation styles */
+nav {
+    background-color: #007bff; /* Blue color for the navigation bar */
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+}
+
+/* Home section styles */
+#home h1 {
+    color: #007bff; /* Blue color for the heading */
+}
+
+#phoneGallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.phone {
+    text-align: center;
+}
+
+.phone img {
+    max-width: 100px;
+}
+
+.phone p {
+    color: #007bff; /* Blue color for the phone descriptions */
+}
+
+/* About section styles */
+#about h1,
+#contact h1,
+#user_login h1,
+#admin_login h1 {
+    color: #007bff; /* Blue color for the headings */
+}
+
+/* Label styles */
+label {
+    color: green; /* Green color for all labels */
+    border: 2px solid yellow; /* Yellow border for labels */
+    padding: 5px;
+    display: inline-block;
+}
+
+/* Footer styles */
+footer {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
